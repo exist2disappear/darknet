@@ -1,0 +1,1 @@
+/home/startank/selfgit/darknet/src/build/CMakeFiles/yolo_cuda.dir

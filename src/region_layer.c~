@@ -48,7 +48,7 @@ layer make_region_layer(int batch, int w, int h, int n, int classes, int coords)
 #endif
 
     //fprintf(stderr, "detection\n");
-    fprintf(stderr, "region n = %d, w= %d h= %d type = %d \n",l.n,l.h,l.w,l.type);
+    fprintf(stderr, "region n = %d, w= %d h= %h type = %d \n",l.n,l.h,l.w,l.type);
     srand(0);
 
     return l;

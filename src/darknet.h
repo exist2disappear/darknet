@@ -7,13 +7,13 @@
 
 #define SECRET_NUM -1234
 extern int gpu_index;
-
+//#define BLOCK 512
 #ifdef GPU
-//    #define BLOCK 512
+    #define BLOCK 512
 
-//    #include "cuda_runtime.h"
-//    #include "curand.h"
-//    #include "cublas_v2.h"
+    #include "cuda_runtime.h"
+    #include "curand.h"
+    #include "cublas_v2.h"
 
     #ifdef CUDNN
     #include "cudnn.h"
